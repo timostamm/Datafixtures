@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ts.Datafixtures</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>timostamm</authors>
+    <owners>timostamm</owners>
+    <projectUrl>https://github.com/timostamm/Datafixtures</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET Datafixtures for Unit Tests</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>unit-test,EntityFramework,fixture</tags>
+  </metadata>
+</package>
