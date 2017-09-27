@@ -106,11 +106,11 @@ System.Diagnostics.Trace.WriteLine("First student: " + first.Result.StudentName)
 
 ##### Drop the database ?!?
 
-You should use a LocalDB for your unittests. EntityFixtures.DropCreateDatabase actually throws an exception if you do not, but in any case: use your own brain.
+You should use a LocalDB for your unittests. `EntityFixtures.DropCreateDatabase()` actually throws an exception if you do not, but in any case: use your own brain.
 
 
 ##### Injecting other dependencies
-If you have a look at EntityFixtures.DropCreateDatabase, it just calls RegisterService with your DbContext, and thereby making it available for constructor injection:
+If you have a look at `EntityFixtures.DropCreateDatabase()`, it just calls `FixtureLoader.RegisterService()` with your DbContext, and thereby making it available for constructor injection:
 ```C#
 loader.RegisterService<TContext>(context);
 ```
