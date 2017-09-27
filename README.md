@@ -9,7 +9,7 @@ This library provides a Fixture base class and a fixture loader that takes care 
 
 ##### Defining and loading simple fixtures
 
-A simple fixture extends Fixture<T> and overrides DoLoad():
+A simple fixture extends `Fixture<T>` and overrides `DoLoad()`:
 
 ```C#
 class StartOfUnixTime : Fixture<DateTime>
